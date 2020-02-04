@@ -6,7 +6,10 @@ const myStyles = {
 
     backgroundImage: `url( ${Background} )`,
     height: '50vh',
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundAttachment: 'fixed',
+    backgroundPosition: 'center'
 
 }
 
@@ -22,7 +25,7 @@ class Header extends React.Component {
                     {this.props.title}
                 </h1>
                 <p>
-                    A Free Bootstrap Theme by Start Bootstrap
+                    Come meet me on this journey
                 </p>
 
                 <a href="#button">{this.props.button}</a>

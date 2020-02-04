@@ -4,6 +4,7 @@ import './index.css';
 //import App from './App';
 import Navigation from './Navigation';
 import Header from './Header';
+import Services from './Services'
 import * as serviceWorker from './serviceWorker';
 
 class App extends Component {
@@ -11,7 +12,8 @@ class App extends Component {
         return (
             <div>
                 <Navigation logoTitle="React Project" />
-                <Header title="Stylish Portfolio" button="Find Out More" />
+                <Header title="Self Portfolio" button="Find Out More" />
+                <Services />
             </div>
         );
     }
